@@ -4,12 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/imgs/favicon.png" />
   </head>
 
   <body>
-    <header></header>
+    <header class="cabecalho">
+     <div class="cabecalho__tema">
+      <span class="cabecalho__tema__icone">
+        <img width="35" onclick="toggleDarkMode(true)" height="35" src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/35/external-sun-space-vitaliy-gorbachev-flat-vitaly-gorbachev.png" alt="external-sun-space-vitaliy-gorbachev-flat-vitaly-gorbachev"/>
+      </span>
+      <span class="cabecalho__tema__icone light-mode">
+        <img onclick="toggleDarkMode(false)" width="35" height="35" src="//img.icons8.com/ultraviolet/35/bright-moon.png" alt="bright-moon"/>
+      </span>
+     </div>
+     
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -24,18 +40,34 @@
           prática boas ideias. Vamos conversar?
         </p>
         <div class="apresentacao__links">
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
           <a
             class="apresentacao__links__link"
             href="https://instagram.com/ruggerygusmao"
             target="_blank"
-            >Instagram</a
           >
+            <img  width="35" height="35" src="https://img.icons8.com/fluency-systems-regular/35/cdd9e5/instagram-new--v1.png" alt="instagram-new--v1"/>
+           
+            Instagram
+          </a>
           <a
             class="apresentacao__links__link"
             href="https://github.com/ruggerygusmao"
             target="_blank"
-            >GitHub</a
           >
+          <img width="35" height="35" src="https://img.icons8.com/ios-glyphs/35/cdd9e5/github.png" alt="github"/>
+          
+            GitHub
+          </a>
+          <a
+            class="apresentacao__links__link"
+            href="https://linkedin.com/in/ruggerygusmao"
+            target="_blank"
+          >
+          <img width="35" height="35" src="https://img.icons8.com/ios-filled/35/cdd9e5/linkedin.png" alt="linkedin"/>
+          
+            Linkedin
+          </a>
         </div>
       </section>
       <div class="imagem__apresentacao">
@@ -45,6 +77,9 @@
         />
       </div>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <p>&copy; Desenvolvido por Ruggery Gusmão.</p>
+    </footer>
+    <script src="assets/js/tema.js" defer></script>
   </body>
 </html>
