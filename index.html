@@ -7,19 +7,35 @@
     <title>Portifólio</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="icon" type="image/svg+xml" href="/assets/imgs/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
 
   <body>
     <header class="cabecalho">
-     <div class="cabecalho__tema">
-      <span class="cabecalho__tema__icone">
-        <img width="35" onclick="toggleDarkMode(true)" height="35" src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/35/external-sun-space-vitaliy-gorbachev-flat-vitaly-gorbachev.png" alt="external-sun-space-vitaliy-gorbachev-flat-vitaly-gorbachev"/>
-      </span>
-      <span class="cabecalho__tema__icone light-mode">
-        <img onclick="toggleDarkMode(false)" width="35" height="35" src="//img.icons8.com/ultraviolet/35/bright-moon.png" alt="bright-moon"/>
-      </span>
-     </div>
-     
+      <div class="cabecalho__tema">
+        <span class="cabecalho__tema__icone">
+          <img
+            width="25"
+            onclick="toggleDarkMode(true)"
+            height="25"
+            src="https://img.icons8.com/external-kmg-design-flat-kmg-design/25/external-sun-ecology-kmg-design-flat-kmg-design.png"
+            alt="external-sun-space-vitaliy-gorbachev-flat-vitaly-gorbachev"
+          />
+        </span>
+        <span class="cabecalho__tema__icone light-mode">
+          <img
+            onclick="toggleDarkMode(false)"
+            width="25"
+            height="25"
+            src="https://img.icons8.com/external-justicon-flat-justicon/25/external-moon-phase-weather-justicon-flat-justicon.png"
+            alt="bright-moon"
+          />
+        </span>
+      </div>
+
       <nav class="cabecalho__menu">
         <a class="cabecalho__menu__link" href="index.html">Home</a>
         <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
@@ -41,41 +57,40 @@
         </p>
         <div class="apresentacao__links">
           <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-          <a
-            class="apresentacao__links__link"
-            href="https://instagram.com/ruggerygusmao"
-            target="_blank"
-          >
-            <img  width="35" height="35" src="https://img.icons8.com/fluency-systems-regular/35/cdd9e5/instagram-new--v1.png" alt="instagram-new--v1"/>
-           
-            Instagram
-          </a>
-          <a
-            class="apresentacao__links__link"
-            href="https://github.com/ruggerygusmao"
-            target="_blank"
-          >
-          <img width="35" height="35" src="https://img.icons8.com/ios-glyphs/35/cdd9e5/github.png" alt="github"/>
-          
-            GitHub
-          </a>
-          <a
-            class="apresentacao__links__link"
-            href="https://linkedin.com/in/ruggerygusmao"
-            target="_blank"
-          >
-          <img width="35" height="35" src="https://img.icons8.com/ios-filled/35/cdd9e5/linkedin.png" alt="linkedin"/>
-          
-            Linkedin
-          </a>
+          <div class="apresentacao__links__container">
+            <a
+              class="apresentacao__links__navegacao"
+              href="https://instagram.com/ruggerygusmao"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram icone"></i>
+              <span>Instagram</span>
+            </a>
+            <a
+              class="apresentacao__links__navegacao"
+              href="https://github.com/ruggerygusmao"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github icone"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              class="apresentacao__links__navegacao"
+              href="https://linkedin.com/in/ruggerygusmao"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin icone"></i>
+              <span>Linkedin</span>
+            </a>
+          </div>
         </div>
       </section>
-      <div class="imagem__apresentacao">
+      <section class="imagem__apresentacao">
         <img
           src="https://github.com/ruggerygusmao.png"
           alt="Foto da Joana Santos programando"
         />
-      </div>
+      </section>
     </main>
     <footer class="rodape">
       <p>&copy; Desenvolvido por Ruggery Gusmão.</p>
