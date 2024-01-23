@@ -134,6 +134,16 @@ body {
   gap: 1rem;
 }
 
+.apresentacao__conteudo__texto ul li a{
+  text-decoration: none;
+  color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto ul li a:hover{
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 .apresentacao__links {
   display: flex;
   flex-direction: column;
@@ -266,6 +276,7 @@ body {
 
   .apresentacao__conteudo__texto {
     font-size: 1.2rem;
+    padding-bottom: 3rem;
   }
 
   .apresentacao__links__subtitulo {
@@ -282,6 +293,7 @@ body {
     display: flex;
     justify-content: center;
     border: none;
+    padding-top: 28px;
 
   }
 
