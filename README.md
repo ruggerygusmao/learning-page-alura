@@ -7,7 +7,7 @@ Projeto desenvolvido na trilha de HTML e CSS realizado pela One Oracle Next Educ
 ### 🚀  Deploy
 <hr />
 
-Github Pages: [link](https://ruggerygusmao.github.io/learning-page-alura/)
+Github Pages: [link](https://ruggerygusmao.github.io/learning-page-portifolio/)
 
 
 ### 💻 Versão desktop
